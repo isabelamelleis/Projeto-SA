@@ -1,3 +1,19 @@
-body {
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
     background-color: #1E6994;
+}
+
+header > img {
+    width: 160px;
+    height: 60px;
+    margin: 15px;
+}
+
+.seta-para-esquerda {
+    width: 25px;
+    height: 15px;
 }
