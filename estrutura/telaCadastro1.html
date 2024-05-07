@@ -4,11 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro EPTRAN</title>
-    <link rel="stylesheet" href="../visual/cadastro.css">
+    <link rel="stylesheet" href="../visual/cadastro.css"/>
 </head>
 <body>
     <header>
-        <img src="../visual/imagens/logotipo_Prefeitura.png" alt="Logo da Prefeitura de Joinville">
+        <img src="../visual/imagens/logotipo_Prefeitura.png" alt="Logo da Prefeitura de Joinville"/>
     </header>
+    <div>
+        <button><img class="seta-para-esquerda" src="../visual/imagens/seta-para-esquerda.png" alt="">Voltar</button>
+    </div>
+    <div class="classe-do-cadastro">
+        <div>
+            <h2>Faça o seu cadastro</h2>
+        </div>
+        <form>
+            <label for="nome-de-usuario">Nome de Usuário:</label>
+            <input type="text" name="nome-de-usuario" id="nome-de-usuario">
+
+            <label for="email-usuario">Email:</label>
+            <input type="email" name="email-usuario" id="email-usuario">
+
+            <button type="submit">Seguinte</button>
+        </form>
+        <div>
+            <img class="passos-cadastro-img" src="../visual/imagens/pontinhos-passo-1.png" alt="Passo 1 do cadastro">
+        </div>
+    </div>
 </body>
 </html>

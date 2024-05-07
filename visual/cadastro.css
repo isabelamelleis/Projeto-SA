@@ -1,8 +1,39 @@
-body {
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.classe-do-cadastro {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+header {
     background-color: #1E6994;
 }
 
-.EP{
-    align-content: center;
-    a
+header > img {
+    width: 160px;
+    height: 60px;
+    margin: 15px;
 }
+
+.seta-para-esquerda {
+    width: 25px;
+    height: 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.passos-cadastro-img {
+    position: absolute;
+    left: 20%;
+    width: 110px;
+    height: 70px;
+}
+
