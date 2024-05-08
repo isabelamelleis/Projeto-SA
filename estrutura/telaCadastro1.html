@@ -11,24 +11,28 @@
         <img src="../visual/imagens/logotipo_Prefeitura.png" alt="Logo da Prefeitura de Joinville"/>
     </header>
     <div>
-        <button><img class="seta-para-esquerda" src="../visual/imagens/seta-para-esquerda.png" alt="">Voltar</button>
+        <button class="botao-voltar"><img class="seta-para-esquerda" src="../visual/imagens/seta-para-esquerda.png" alt="">Voltar</button>
     </div>
     <div class="classe-do-cadastro">
-        <div>
+        <div class="faca-seu-cadastro">
             <h2>Faça o seu cadastro</h2>
         </div>
         <form>
-            <label for="nome-de-usuario">Nome de Usuário:</label>
-            <input type="text" name="nome-de-usuario" id="nome-de-usuario">
+            <div class="divisao-1-formulario">
+                <label for="nome-de-usuario">Nome de Usuário:</label>
+                <input type="text" name="nome-de-usuario" id="nome-de-usuario">
+            </div>
 
-            <label for="email-usuario">Email:</label>
-            <input type="email" name="email-usuario" id="email-usuario">
+            <div class="divisao-2-formulario">
+                <label for="email-usuario">Email:</label>
+                <input type="email" name="email-usuario" id="email-usuario">
+            </div>
 
-            <button type="submit">Seguinte</button>
+            <button type="button" class="botao-seguinte">Seguinte</button>
+            <div class="div-passos-cadastro">
+                <img class="passos-cadastro-img" src="../visual/imagens/pontinhos-passo-1.png" alt="Passo 1 do cadastro">
+            </div>
         </form>
-        <div>
-            <img class="passos-cadastro-img" src="../visual/imagens/pontinhos-passo-1.png" alt="Passo 1 do cadastro">
-        </div>
     </div>
 </body>
 </html>
