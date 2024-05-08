@@ -7,23 +7,34 @@
     <link rel="stylesheet" href="../visual/styleTelaLogin.css">
 </head>
 <body>
-    <div id="cabecalho">
-        <img src="../visual/imagens/logotipo_Prefeitura.png" alt="Logo da prefeitura de Joinville">
-    </div>
-    <h1>
-        Entre
-    </h1>
-    <form>
-        <label>
-            Usuário ou email:
-        </label>
-        <br>
-        <input type="text">
-        <br>
-        <label>
-            Senha
-        </label>
-        <input type="password">
-    </form>
+    <header id="cabecalho">
+        <img src="../visual/imagens/logotipo_Prefeitura.png" alt="Logo da Prefeitura de Joinville">
+    </header>
+    <container>
+        <h1>
+            Entre
+        </h1>
+        <div id="div-form-login">
+            <form method="post">
+                <div>
+                    <label for="usuario-email">
+                        Usuário ou email:
+                    </label>
+                    <br>
+                    <input type="text" id="usuario-email" name="usuario-email" required>
+                </div>
+                <div>
+                    <label for="senha">
+                        Senha:
+                    </label>
+                    <br>
+                    <input type="password" id="senha" name="senha" required>
+                </div>
+                <button type="submit">
+                    Continuar
+                </button>
+            </form>
+        </div>
+    </container>
 </body>
 </html>
