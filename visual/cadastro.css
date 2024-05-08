@@ -8,19 +8,20 @@
 
 .classe-do-cadastro {
     position: absolute;
-    top: 50%;
+    top: 360px;
     left: 50%;
     transform: translate(-50%,-50%);
-    
+    width: 70%;
 }
 
 header {
     background-color: #1E6994;
+    width: 100%;
 }
 
 header > img {
-    width: 160px;
-    height: 60px;
+    width: 110px;
+    height: 40px;
     margin: 15px;
 }
 
@@ -29,7 +30,7 @@ header > img {
     background-color: transparent;
     font-size: 20px;
     font-weight: 500;
-    margin: 30px;
+    margin-bottom: 50px;
 }
 
 .seta-para-esquerda {
@@ -50,9 +51,12 @@ form {
 }
 
 input {
-    padding-block:8px;
     border-radius: 50px;
     border-width: 1px;
+    width: 100%;
+    height: 35px;
+    font-size: large;
+    padding-left: 10px;
 }
 
 .divisao-1-formulario{
@@ -63,6 +67,7 @@ input {
 .divisao-2-formulario {
     display: grid;
     gap: 10px;
+    margin-bottom: 20px;
 }
 
 .botao-seguinte {
@@ -79,7 +84,7 @@ input {
 }
 
 .passos-cadastro-img {
-    width: 115px;
+    width: 120px;
     height: 70px;
 }
 
