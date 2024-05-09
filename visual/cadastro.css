@@ -6,12 +6,14 @@
     font-family: "Teachers", sans-serif;
 }
 
+body {
+    height: 100vh
+}
+
 .classe-do-cadastro {
-    position: absolute;
-    top: 360px;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    width: 70%;
+    display: block;
+    margin-inline: 10vw;
+    margin-top: 30px;
 }
 
 header {
@@ -43,6 +45,10 @@ header > img {
     margin-bottom: 50px;
 }
 
+.paragrafo-informacoes-cadastro {
+    font-size: larger;
+}
+
 form {
     display: flex;
     flex-direction: column;
@@ -50,7 +56,7 @@ form {
     font-size: larger;
 }
 
-input {
+input, select {
     border-radius: 50px;
     border-width: 1px;
     width: 100%;
@@ -67,24 +73,26 @@ input {
 .divisao-2-formulario {
     display: grid;
     gap: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 35px;
 }
 
 .botao-seguinte {
+    text-align: center;
     background-color: #00BF63;
     border: 0;
     border-radius: 50px;
-    padding-block: 12px;
+    padding-block: 7px;
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .div-passos-cadastro {
-    text-align: center;
+    display: block;
+    margin: auto;
 }
 
 .passos-cadastro-img {
-    width: 120px;
-    height: 70px;
+    width: 13rem;
+    height: 7.5rem;
 }
 
