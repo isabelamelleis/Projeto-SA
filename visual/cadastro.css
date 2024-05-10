@@ -7,7 +7,7 @@
 }
 
 body {
-    height: 100vh
+    height: 100vh;
 }
 
 .classe-do-cadastro {
@@ -54,6 +54,9 @@ form {
     flex-direction: column;
     gap: 20px;
     font-size: larger;
+    label {
+        margin-left: 10px;
+    }
 }
 
 input, select {
@@ -81,18 +84,24 @@ input, select {
     background-color: #00BF63;
     border: 0;
     border-radius: 50px;
-    padding-block: 7px;
+    min-block-size: 50px;
     font-size: 20px;
     font-weight: 600;
+    min-width: 80vw;
 }
 
 .div-passos-cadastro {
-    display: block;
-    margin: auto;
+    text-align: center;
+    position: fixed;
+    top: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-inline: 20%;
 }
 
 .passos-cadastro-img {
-    width: 13rem;
-    height: 7.5rem;
+    width: 140px;
+    height: 30px;
+    margin-top: 30px;
 }
 
