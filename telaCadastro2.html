@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="../styles/cadastro.css"/>
+</head>
+<body>
+    <header>
+        <img src="../styles/imagens/logotipo_Prefeitura.png" alt="Logo da Prefeitura de Joinville"/>
+    </header>
+    <div class="classe-do-cadastro">
+        <div>
+            <a href="./telaCadastro1.html"><button class="botao-voltar"><img class="seta-para-esquerda" src="../styles/imagens/seta-para-esquerda.png" alt="">Voltar</button></a>
+        </div>
+        <div class="faca-seu-cadastro">
+            <h2>Faça o seu cadastro</h2>
+            <p class="paragrafo-informacoes-cadastro">Informações Pessoais</p>
+        </div>
+        <form>
+            <div class="divisao-1-formulario">
+                <label for="nome-completo">Nome completo:</label>
+                <input type="text" name="nome-completo" id="nome-completo">
+            </div>
+
+            <div class="divisao-1-formulario">
+                <label for="idade-usuario">Idade:</label>
+                <input type="number" name="idade-usuario" id="idade-usuario">
+            </div>
+
+            <div class="divisao-2-formulario">
+                <label for="genero-usuario">Gênero:</label>
+                <select required name="genero-usuario" id="genero-usuario">
+                    <option selected disabled>Selecione uma opção</option>
+                    <option value="feminino">Feminino</option>
+                    <option value="masculino">Masculino</option>
+                    <option value="prefiro-nao-informar">Prefiro não informar</option>
+                </select>
+            </div>
+
+            <div class="div-passos-cadastro">
+                <a href="./telaCadastro3.html" class="botao-seguinte"><button type="button" class="botao-seguinte">Seguinte</button></a>
+                <img class="passos-cadastro-img" src="../styles/imagens/pontinhos-passo-2.png" alt="Passo 1 do cadastro">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
