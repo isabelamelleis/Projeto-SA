@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Teachers:ital,wght@0,400..800;1,400..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Teachers", sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+header {
+    background-color: #1E6994;
+    width: 100%;
+
+    img {
+        width: 110px;
+        height: 40px;
+        margin: 15px;
+    }
+
+}
+
+form {
+    font-size: 140%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 80vw;
+    label {
+        margin-left: 10px;
+    }
+}
+
+/*------------------------ LOGIN ------------------------------*/
+#container {
+    position: relative;
+    top: 25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+#h1-login {
+    font-weight: 500;
+    font-size: larger;
+}
+
+#form-login {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*------------------------ FINAL LOGIN ------------------------------*/
+
+.classe-do-cadastro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.botao-voltar {
+    border: 0;
+    background-color: transparent;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: 10vw;
+    font-size: 140%;
+    outline-width: 1px;
+    text-wrap:nowrap;
+}
+
+.seta-para-esquerda {
+    width: 25px;
+    height: 15px;
+    margin-right: 8px;
+}
+
+.faca-seu-cadastro {
+    margin-bottom: 50px;
+    margin-left: 10vw;
+}
+
+.paragrafo-informacoes-cadastro {
+    font-size: larger;
+}
+
+input, select {
+    border: solid 1px;
+    border-radius: 50px;
+    width: 100%;
+    height: 150%;
+    font-size: 110%;
+    padding-left: 10px;
+}
+
+.divisao-1-formulario{
+    display: grid;
+    gap: 10px;
+}
+
+.divisao-2-formulario {
+    display: grid;
+    gap: 10px;
+    margin-bottom: 35px;
+}
+
+.botao-seguinte {
+    text-align: center;
+    background-color: #00BF63;
+    border: 0;
+    border-radius: 50px;
+    block-size: 60px;
+    font-weight: 600;
+    min-width: 80vw;
+    font-size: 105%;
+}
+
+.div-passos-cadastro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    height: 28vh;
+}
+
+.passos-cadastro-img {
+    width: 140px;
+    height: 30px;
+    margin-top: 30px;
+}
+
+@media (max-height: 860px) {
+    .div-passos-cadastro {
+        max-height: 30vh;
+    }
+}
