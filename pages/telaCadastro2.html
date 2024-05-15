@@ -3,21 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro</title>
+    <title>Cadastro EPTRAN</title>
     <link rel="stylesheet" href="../styles/cadastro.css"/>
 </head>
 <body>
     <header>
         <img src="../styles/imagens/logotipo_Prefeitura.png" alt="Logo da Prefeitura de Joinville"/>
     </header>
+    <div>
+        <a href="./telaCadastro1.html"><button class="botao-voltar"><img class="seta-para-esquerda" src="../styles/imagens/seta-para-esquerda.png" alt="">Voltar</button></a>
+    </div>
+    <div class="faca-seu-cadastro">
+        <h2>Faça o seu cadastro</h2>
+        <p class="paragrafo-informacoes-cadastro">Informações Pessoais</p>
+    </div>
     <div class="classe-do-cadastro">
-        <div>
-            <a href="./telaCadastro1.html"><button class="botao-voltar"><img class="seta-para-esquerda" src="../styles/imagens/seta-para-esquerda.png" alt="">Voltar</button></a>
-        </div>
-        <div class="faca-seu-cadastro">
-            <h2>Faça o seu cadastro</h2>
-            <p class="paragrafo-informacoes-cadastro">Informações Pessoais</p>
-        </div>
         <form>
             <div class="divisao-1-formulario">
                 <label for="nome-completo">Nome completo:</label>
@@ -35,6 +35,7 @@
                     <option selected disabled>Selecione uma opção</option>
                     <option value="feminino">Feminino</option>
                     <option value="masculino">Masculino</option>
+                    <option value="outro">Outro</option>
                     <option value="prefiro-nao-informar">Prefiro não informar</option>
                 </select>
             </div>
