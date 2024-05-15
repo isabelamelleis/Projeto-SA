@@ -4,39 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Entrar</title>
-    <link rel="stylesheet" href="../styles/styleTelaLogin.css">
+    <link rel="stylesheet" href="../styles/loginCadastro.css">
 </head>
-<body>
+<body id="body-login">
     <header id="cabecalho">
         <img src="../styles/imagens/logotipo_Prefeitura.png" alt="Logo da Prefeitura de Joinville">
     </header>
-    <h1>
-        ENTRE
-    </h1>
     <div id="container">
-        <div>
-            <form method="post">
-                <div class="formulario">
-                    <label for="usuario-email">
-                        Usuário ou email:
-                    </label>
-                    <br>
-                    <input type="text" id="usuario-email" name="usuario-email" required>
-                </div>
-                <div class="formulario">
-                    <label for="senha">
-                        Senha:
-                    </label>
-                    <br>
-                    <input type="password" id="senha" name="senha" required>
-                </div>
-                <div id="div-button">
-                    <button type="submit">
-                        Continuar
-                    </button>
-                </div>
-            </form>
-        </div>
+        <h1 id="h1-login">
+            ENTRE
+        </h1>
+        <form method="post" id="form-login">
+            <div class="formulario">
+                <label for="usuario-email">
+                    Usuário ou email:
+                </label>
+                <br>
+                <input type="text" id="usuario-email" name="usuario-email" required>
+            </div>
+            <div class="formulario">
+                <label for="senha">
+                    Senha:
+                </label>
+                <br>
+                <input type="password" id="senha" name="senha" required>
+            </div>
+            <div id="div-button">
+                <button type="submit">
+                    Continuar
+                </button>
+            </div>
+        </form>
     </div>
 </body>
 </html>
