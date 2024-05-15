@@ -15,13 +15,19 @@ body, .container, html{
 
 .EP img{
     width: 100%;
+    max-width: 850px;
 }
 
 .Pre {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
     position: absolute;
-    margin: auto;
+    height: 85vh;
+    width: 50vw;
 }
 .Pre img{
-    margin-top: 700px;
-    width: 130px;
+    width: 60%;
+    max-width: 150px;
 }
