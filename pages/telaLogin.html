@@ -6,8 +6,8 @@
     <title>Entrar</title>
     <link rel="stylesheet" href="../styles/loginCadastro.css">
 </head>
-<body id="body-login">
-    <header id="cabecalho">
+<body>
+    <header>
         <img src="../styles/imagens/logotipo_Prefeitura.png" alt="Logo da Prefeitura de Joinville">
     </header>
     <div id="container">
@@ -15,26 +15,28 @@
             ENTRE
         </h1>
         <form method="post" id="form-login">
-            <div class="formulario">
+            <div>
                 <label for="usuario-email">
                     Usuário ou email:
                 </label>
-                <br>
-                <input type="text" id="usuario-email" name="usuario-email" required>
+                <input type="text" id="usuario-email" class="input-login" name="usuario-email" required>
             </div>
-            <div class="formulario">
+            <div>
                 <label for="senha">
                     Senha:
                 </label>
-                <br>
-                <input type="password" id="senha" name="senha" required>
+                <input type="password" id="senha"  class="input-login" name="senha" required>
             </div>
-            <div id="div-button">
-                <button type="submit">
-                    Continuar
-                </button>
-            </div>
+            <button type="submit" id="botao-login">
+                Continuar
+            </button>
         </form>
+        <div id="ir-para-cadastro">
+            <p>
+                Não possui cadastro?
+            </p>
+            <a href="../pages/telaCadastro1.html">Cadastre-se aqui</a>
+        </div>
     </div>
 </body>
 </html>
