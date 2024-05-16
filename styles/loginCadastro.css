@@ -23,17 +23,6 @@ header {
 
 }
 
-form {
-    font-size: 140%;
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    width: 80vw;
-    label {
-        margin-left: 10px;
-    }
-}
-
 /*------------------------ LOGIN ------------------------------*/
 #container {
     position: relative;
@@ -42,11 +31,12 @@ form {
     flex-direction: column;
     align-items: center;
     width: 100%;
+    gap: 3vh;
 }
 
 #h1-login {
     font-weight: 500;
-    font-size: larger;
+    font-size: 2.5vh;
 }
 
 #form-login {
@@ -54,7 +44,28 @@ form {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 3vh;
+    font-size: 2.5vh;
+
+    div {
+        width: 80%;
+    }
 }
+
+.input-login {
+    height: 4.5vh;
+}
+
+#botao-login {
+    background-color: #00BF63;
+    width: 80%;
+    height: 5.5vh;
+    border: 0;
+    border-radius: 50px;
+    font-size: 2.5vh;
+    font-weight: 600;
+}
+
 
 /*------------------------ FINAL LOGIN ------------------------------*/
 .classe-do-cadastro {
@@ -74,7 +85,7 @@ form {
     margin-left: 10vw;
     font-size: 140%;
     outline-width: 1px;
-    text-wrap:nowrap;
+    text-wrap: nowrap;
 }
 
 .seta-para-esquerda {
@@ -92,12 +103,24 @@ form {
     font-size: larger;
 }
 
+.forms-do-cadastro {
+    font-size: 140%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 80vw;
+    label {
+        margin-left: 10px;
+    }
+}
+
 input, select {
     border: solid 1px;
     border-radius: 50px;
     width: 100%;
     height: 150%;
-    font-size: 110%;
+ 
+    font-size: 11%;
     padding-left: 10px;
 }
 
@@ -107,15 +130,15 @@ input, select {
 }
 
 .divisao-1-formulario {
-    margin-bottom: 170px;
+    margin-bottom: 19vh;
 }
 
 .divisao-2-formulario {
-    margin-bottom: 38px;
+    margin-bottom: 5vh;
 }
 
 .divisao-3-formulario {
-    margin-bottom: 145px;
+    margin-bottom: 16.2vh;
 }
 
 .botao-seguinte {
@@ -123,7 +146,7 @@ input, select {
     background-color: #00BF63;
     border: 0;
     border-radius: 50px;
-    block-size: 60px;
+    height: 5.5vh;
     font-weight: 600;
     min-width: 80vw;
     font-size: 105%;
@@ -140,11 +163,4 @@ input, select {
 .passos-cadastro-img {
     width: 140px;
     height: 30px;
-    margin-top: 30px;
-}
-
-@media (max-height: 860px) {
-    .div-passos-cadastro {
-        max-height: 30vh;
-    }
 }
