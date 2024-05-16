@@ -15,14 +15,6 @@ form {
     font-size: 140%;
 }
 
-.classe-do-cadastro {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-}
-
 header {
     background-color: #1E6994;
     width: 100%;
@@ -32,6 +24,14 @@ header > img {
     width: 110px;
     height: 40px;
     margin: 15px;
+}
+
+.classe-do-cadastro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
 }
 
 .botao-voltar {
