@@ -23,15 +23,45 @@ header {
 
 }
 
-/*------------------------ LOGIN ------------------------------*/
+/*--------------------- TELA DE CARREGAMENTO -----------------*/
+
+#body-tela-carregamento {
+    background-color: #1E6994;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo-eptran img{
+    width: 100%;
+    max-width: 850px;
+}
+
+#logo-prefeitura {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    position: absolute;
+    height: 85vh;
+    width: 50vw;
+}
+
+#logo-prefeitura img{
+    width: 60%;
+    max-width: 150px;
+}
+
+/*------------------------ TELA DE LOGIN ---------------------*/
+
 #container {
     position: relative;
-    top: 25vh;
+    top: 15vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
-    gap: 3vh;
+    gap: 3.5vh;
 }
 
 #h1-login {
@@ -54,20 +84,32 @@ header {
 
 .input-login {
     height: 4.5vh;
+    margin-top: 1.5vh;
 }
 
 #botao-login {
     background-color: #00BF63;
-    width: 80%;
+    width: 83%;
     height: 5.5vh;
     border: 0;
     border-radius: 50px;
     font-size: 2.5vh;
     font-weight: 600;
+    margin-left: 10px;
+    margin-top: 3vh;
 }
 
+#ir-para-cadastro {
+    text-align: center;
+    font-weight: 500;
 
-/*------------------------ FINAL LOGIN ------------------------------*/
+    a {
+        color: black;
+    }
+}
+
+/*--------------------- TELAS DE CADASTRO --------------------*/
+
 .classe-do-cadastro {
     display: flex;
     flex-direction: column;
@@ -119,8 +161,7 @@ input, select {
     border-radius: 50px;
     width: 100%;
     height: 150%;
- 
-    font-size: 11%;
+    font-size: 100%;
     padding-left: 10px;
 }
 
