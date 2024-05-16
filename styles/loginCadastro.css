@@ -88,15 +88,19 @@ header {
 }
 
 #botao-login {
-    background-color: #00BF63;
     width: 83%;
-    height: 5.5vh;
-    border: 0;
-    border-radius: 50px;
-    font-size: 2.5vh;
-    font-weight: 600;
     margin-left: 10px;
     margin-top: 3vh;
+
+    button {
+        background-color: #00BF63;
+        height: 5.5vh;
+        border: 0;
+        border-radius: 50px;
+        font-size: 2.5vh;
+        font-weight: 600;
+        width: 100%;
+    }
 }
 
 #ir-para-cadastro {

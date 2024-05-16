@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Teachers:ital,wght@0,400..800;1,400..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1E6994;
+    width: 100%;
+
+    img {
+        width: 110px;
+        height: 40px;
+        margin: 15px;
+    }
+
+}
+
+#barra-navegacao {
+    background-color: #1E6994;
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+    div {
+        text-align: center;
+    }
+    
+
+    p {
+        color: white;
+        font-size: 80%;
+        font-weight: 500;
+    }
+}
+
+/*---------------------- TELA INICIAL -------------------*/
+
+#body-tela-inicial {
+    font-family: "Teachers", sans-serif;
+}
+
+#inicio-parte-amarela {
+    background-color: #FFEE82;
+    height: 90vh;
+    padding-top: 8vh;
+}
+
+#frase-educa-transito {
+    background-color: #1E6994;
+    width: 55%;
+    text-align: center;
+    border-top-right-radius: 50px;
+    padding-block: 1.5vh;
+    padding-inline: 1vh;
+
+    p {
+        color: white;
+        font-weight: bold;
+    }
+}
+
+#frase-efeito-inicial {
+    background-color: white;
+    text-align: center;
+    padding-block: 2vh;
+    padding-inline: 3vh;
+    
+    p {
+        color: #0EAB5F;
+        font-weight: 400;
+        font-size: 2.5vh;
+    }
+}
+
+#imagens-tela-inicial{
+    img {
+        display: block;
+        aspect-ratio: 1/1; /* deixa a imagem quadrada, mas ao mesmo tempo distorce ela */
+        object-fit: cover; /* recorta a imagem e evita a distorção que a propriedade anterior causou */
+        border-radius: 50%;
+    }
+}
+
+#carros-circulacao {
+    height: 12vh;
+    position: relative;
+    top: 5vh;
+    left: 23vh;
+}
+
+#placas-transito {
+    height: 18vh;
+    object-position: 0% 50%;
+    position: relative;
+    top: 2vh;
+    left: 5vh;
+}
+
+#vaga-cadeirante {
+    height: 16vh;
+    object-position: 30% 50%;
+    position: relative;
+    top: -8vh;
+    left: 27vh;
+}
+
+/*---------------------- FINAL TELA INICIAL -------------------*/
+
+.texto-linha{
+    background-image: linear-gradient(to right, #0EAB5F, #78DDAC);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 50px;  
+    font-size: large;
+    width: 100%;
+}
+.texto-linha h3{
+    padding: 13px;
+}
+.quadrado-texto{
+    border-radius: 7%;
+    background-color: #78DDAC;
+    width: 250px;
+}
+.quadrado-texto p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    color: #0EAB5F;
+    font-weight: bold;
+}
