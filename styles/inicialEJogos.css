@@ -35,6 +35,23 @@ header {
         font-size: 80%;
         font-weight: 500;
     }
+
+    button {
+        border-radius: 50%;
+        border: none;
+        height: 2.5vh;
+        width: 2.5vh;
+        
+    }
+}
+
+.icones-barra-navegacao {
+    height: 1.5vh;
+    object-position: left;
+}
+
+#botao-branco-barra-navegacao {
+    background-color: white;
 }
 
 /*---------------------- TELA INICIAL -------------------*/
