@@ -78,3 +78,26 @@ body {
         width: 11%;
     }
 }
+
+#secao-conquistas {
+    background-color: #1C6285;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-inline: auto;
+    width: 80vw;
+    border-radius: 50px;
+    margin-top: 50px;
+}
+
+#titulo-secao-conquistas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3vh;
+
+    img {
+        height: 5vh;
+        width: auto;
+    }
+}
