@@ -38,13 +38,23 @@ body {
 }
 
 #div-foto-de-perfil-conta {
-    width: 100vw;
+    display: flex;
+    justify-content: center;
     height: fit-content;
-    text-align: center;
     #img-foto-de-perfil-conta {
-
         width: 40vw;
         height: 12vh;
+    }
+}
+
+#botao-edit-perfil-photo {
+    position: absolute;
+    top: 16%;
+    left: 270px;
+
+    img {
+        height: 2.4vh;
+        width: auto;
     }
 }
 
@@ -53,14 +63,15 @@ body {
     justify-content: space-between;
     align-items: center;
     width: 30vw;
-    max-width: 585px;
+    max-width: 400px;
+    min-width: 100px;
     height: 4vh;
     margin-inline: auto;
     background-color: #1C6285;
     text-decoration: none;
     border-radius: 50px;
     margin-top: 20px;
-    box-shadow: 8px 8px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: rgb(74, 74, 74) 0px 20px 30px -10px;
 
     color: white;
     font-size: 2.2vh;
@@ -85,19 +96,56 @@ body {
     display: flex;
     flex-direction: column;
     margin-inline: auto;
-    width: 80vw;
-    border-radius: 50px;
+    width: 90vw;
+    max-width: 1500px;
+    border-radius: 40px;
     margin-top: 50px;
+    box-shadow: rgb(74, 74, 74) 0px 20px 30px -10px;
 }
 
 #titulo-secao-conquistas {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 3vh;
+    margin: 3vh 6vw;
+    font-size: 1.8vh;
 
     img {
-        height: 5vh;
+        height: 4vh;
         width: auto;
     }
+}
+
+#body-secao-conquistas {
+    margin-inline: 6vw;
+    img {
+        height: 4vh;
+        width: auto;
+    }
+}
+
+.topicos-secao-conquista {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 2vh;
+    margin-bottom: 3vh;
+}
+
+#div-visualizar-tudo {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-bottom: 3vh;
+    img {
+        height: 1.6vh;
+        width: auto;
+    }
+}
+
+#button-ver-tudo-conquistas {
+    color: white;
+    text-decoration: none;
+    font-size: 2.2vh;
+    margin-top: 1vh;
 }
