@@ -1,3 +1,4 @@
+/*Fonte Importada*/
 @import url('https://fonts.googleapis.com/css2?family=Teachers:ital,wght@0,400..800;1,400..800&display=swap');
 
 * {
@@ -125,26 +126,207 @@ header {
     left: 27vh;
 }
 
-/*---------------------- FINAL TELA INICIAL -------------------*/
+/*---------------------- JOGAR1 -------------------*/
 
-.texto-linha{
+#body-telas-jogar {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f2f2f2;
+}
+
+.series-iniciais{
     background-image: linear-gradient(to right, #0EAB5F, #78DDAC);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    height: 50px;  
-    font-size: large;
-    width: 100%;
-}
-.texto-linha h3{
+    height: 100px;  
+    width: 100vw;
+    font-size: 3vh;
+    margin-bottom: 50px;
+
+        h3{
     padding: 13px;
+    color: #f2f2f2;
+    margin: 10px;
 }
-.quadrado-texto{
-    border-radius: 7%;
-    background-color: #78DDAC;
-    width: 250px;
 }
-.quadrado-texto p{
+
+.slogan-series-iniciais{
+    background-color:#0EAB5F;
+    padding: 20px;
+    float: left;
+    width: 29%;
+    margin-bottom: 50px;
+
+        p{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: large;
-    color: #0EAB5F;
+    font-size: larger;
+    color: #f2f2f2;
     font-weight: bold;
+    }
+}
+.jogar{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: space-around;
+}
+#botao-jogar{
+    width: 150px;
+    height: 40px;
+    font-size: larger;
+    border-radius:20px;
+    background-color: #52D898;
+    border: 0px;
+    color: #f2f2f2;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.imagem-series-iniciais{
+    display: flex;
+    text-align: end;
+    height: 60vh;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: space-between;
+    align-items: center;
+
+    img{
+        width: auto;
+        height: 100%;
+    }
+}
+/*---------------------------JOGAR2----------------------------------*/
+
+.series-finais{
+    background-image: linear-gradient(to right, #F2B807, #F2D06B);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 100px;  
+    width: 100vw;
+    font-size: 3vh;
+    margin-bottom: 50px;
+
+    h3{
+        padding: 13px;
+        color: #000000;
+        margin: 10px;
+}
+}
+
+.slogan-series-finais{
+    background-color: #F2D06B;
+    padding: 20px;
+    float: left;
+    width: 29%;
+    margin-bottom: 50px;
+    p{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: large;
+        color: #000000;
+        font-weight: bold;
+}
+}
+
+.jogar{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: space-around;
+}
+
+#botao-jogar-2{
+    width: 150px;
+    height: 40px;
+    font-size: larger;
+    border-radius:20px;
+    background-color: #F2B807;
+    border: 0px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.imagem-series-finais{
+    display: flex;
+    text-align: initial;
+    height: 60vh;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+    img{
+        width: auto;
+        height: 100%;
+    }
+}
+/*---------------------------JOGAR3----------------------------------*/
+.ensino-medio{
+        background-image: linear-gradient(to right, #F21D2F, #e25561);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        height: 100px;  
+        width: 100vw;
+        font-size: 3vh;
+        margin-bottom: 50px;
+    h3{
+        padding: 13px;
+        color: #f2f2f2;
+}
+}
+
+.slogan-ensino-medio{
+        background-color: #e25561;
+        padding: 20px;
+        float: left;
+        width: 29%;
+        margin-bottom: 50px; 
+    p{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: large;
+        color: #f2f2f2;
+        font-weight: bold;
+}
+}
+
+.jogar{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: space-around;
+}
+
+#botao-jogar-3{
+    width: 150px;
+    height: 40px;
+    font-size: larger;
+    border-radius:20px;
+    background-color: #F21D2F;
+    border: 0px;
+    color: #f2f2f2;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.imagem-ensino-medio{
+    display: flex;
+    text-align: end;
+    height: 60vh;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: space-between;
+    align-items: center;
+
+    img{
+        width: auto;
+        height: 100%;
+    }
 }
