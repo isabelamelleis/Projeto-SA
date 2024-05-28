@@ -12,7 +12,7 @@ body {
     width: 100vw;
 }
 
-#nav-button-settings {
+#nav-botao-configuracoes {
     display: flex;
     justify-content: end;
     align-items: end;
@@ -32,33 +32,33 @@ body {
     font-size: 1.9vh;
 }
 
-#div-button-edit-profile {
+#div-botao-editar-perfil {
     text-align: center;
     width: 100vw;
 }
 
-#div-foto-de-perfil-conta {
-    display: flex;
-    justify-content: center;
-    height: fit-content;
+#div-foto-de-perfil-conta { 
+    height: 8vh;
+    margin: 15px auto;
+    position: relative;
+
     #img-foto-de-perfil-conta {
-        width: 40vw;
-        height: 12vh;
-    }
-}
-
-#botao-edit-perfil-photo {
-    position: absolute;
-    top: 16%;
-    left: 270px;
-
-    img {
-        height: 2.4vh;
         width: auto;
+        height: 8vh;
+        margin: 0px auto;
     }
 }
 
-#botao-edit-profile {
+span > img {
+    height: 2.4vh;
+    width: auto; 
+    position: absolute;
+    left: 100%;
+    top: 100%;
+    transform: translate(-100%, -100%);
+}
+
+#botao-editar-perfil {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -137,13 +137,16 @@ body {
     justify-content: end;
     align-items: center;
     margin-bottom: 3vh;
-    img {
-        height: 1.6vh;
+    svg {
+        height: 2vh;
         width: auto;
     }
 }
 
 #button-ver-tudo-conquistas {
+    display: flex;
+    align-items: center;
+    gap: 5px;
     color: white;
     text-decoration: none;
     font-size: 2.2vh;
