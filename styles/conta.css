@@ -156,3 +156,33 @@ span {
     font-size: 2.2vh;
     margin-top: 1vh;
 }
+
+/*----------------- CONFIGURAÇÕES ---------------- */
+
+#body-configuracoes {
+    padding-left: 5%;
+}
+
+#div-botao-voltar {
+    padding-top: 10%;
+    width: fit-content; /*width se adequa ao conteúdo*/
+    margin-bottom: 10%;
+}
+
+.botao-voltar {
+   display: flex;
+   align-items: center;
+   text-decoration: none;
+   color: #000000;
+   font-size: 2.3vh;
+}
+
+.seta-para-esquerda {
+    height: 1.5vh;
+    width: auto;
+    margin-right: 8px;
+}
+
+#p-configuracoes {
+    font-size: 2.8vh;
+}
