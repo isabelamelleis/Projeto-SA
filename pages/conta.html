@@ -9,11 +9,11 @@
 </head>
 <body>
     <nav id="nav-botao-configuracoes">
-        <a href="#"><img src="../styles/imagens/configuracoes.svg" alt="Botão de configurações da conta"></a>
+        <a href="./telaConfiguracoes.html"><img src="../styles/imagens/configuracoes.svg" alt="Botão de configurações da conta"></a>
     </nav>
     <main class="container">
         <div id="div-foto-de-perfil-conta">
-            <a href="#">
+            <a href="javascript:void(0)" onclick="abrirAbaEdicaoFoto()">
                 <img id="img-foto-de-perfil-conta" src="../styles/imagens/usuario-foto-perfil.png" alt="Foto de perfil do usuário">
                 <img id="icone-edicao-foto-perfil" src="../styles/imagens/botao-edicao-foto-perfil-icone.png" alt="Botão de edição da foto de perfil">
             </a>
@@ -90,6 +90,13 @@
             </a>
             <div class="linha-branca-divisao"></div>
         </aside>
+    </div>
+    <div id="fundo-editar-foto-de-perfil">
+        <div id="conteudo-opcoes-foto">
+            <div class="div-botao-voltar">
+                <a class="botao-branco" href="javascript:void(0)" onclick="fecharAbaEdicaoFoto()"><img class="seta-para-esquerda" src="../styles/imagens/seta-voltar-branca.svg" alt="Seta para voltar">Voltar</a>
+            </div>
+        </div>
     </div>
 </body>
 </html>
