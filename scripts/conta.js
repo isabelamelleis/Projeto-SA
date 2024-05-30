@@ -1,7 +1,9 @@
 function abrirAbaEdicaoPerfil() {
-    document.getElementById("edicao-de-perfil").style.height = "96vh";
+    document.getElementById("fundo-editar-perfil-fechar").style.backgroundColor = "#d8dfe460";
+    document.getElementById("fundo-editar-perfil-fechar").style.height = "100vh";
 }
 
 function fecharAbaEdicaoPerfil() {
-    document.getElementById("edicao-de-perfil").style.height = "0";
+    document.getElementById("fundo-editar-perfil-fechar").style.backgroundColor = "transparent";
+    document.getElementById("fundo-editar-perfil-fechar").style.height = "0";
 }

@@ -156,29 +156,36 @@ body {
 
 /*Aba de edição de dados do perfil*/
 
-#edicao-de-perfil {
+#fundo-editar-perfil-fechar {
+    width: 100vw;
     height: 0;
-    width: 95vw;
     position: fixed;
     bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 1;
+    left: 0;
+    transition: 0.4s;
+}
+
+#edicao-de-perfil {
+    height: 96vh;
+    width: 95vw;
+    max-width: 800px;
     background-color: #023859;
     overflow-x: hidden;
-    transition: 0.4s;
+    z-index: 1;
     border-radius: 30px;
+    margin-inline: auto;
+    margin-top: 8vh;
 }
 
 .opcoes-edicao-do-perfil, #fechar-edicao-perfil-botao {
     display: flex;
     align-items: center;
     text-decoration: none;
-    font-size: 2vh;
+    font-size: 2.2vh;
 }
 
 .opcoes-edicao-do-perfil {
-    height: 5vh;
+    height: 6vh;
     justify-content: space-between;
     color: #ffffff;
 }
@@ -203,12 +210,20 @@ body {
     }
 }
 
+.linha-branca-divisao {
+    height: 0.2%;
+    width: 90%;
+    margin-inline: auto;
+    background-color: #ffffff;
+    border-radius: 150px;
+}
+
 .margem-esquerda-edicao-perfil {
-    margin-left: 4vw;
+    margin-left: 8%;
 }
 
 .margem-direita-edicao-perfil {
-    margin-right: 4vw;
+    margin-right: 8%;
 }
 
 /* Parte de navegação entre seções */
