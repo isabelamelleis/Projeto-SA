@@ -154,6 +154,63 @@ body {
     margin-top: 1vh;
 }
 
+/*Aba de edição de dados do perfil*/
+
+#edicao-de-perfil {
+    height: 0;
+    width: 95vw;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    background-color: #023859;
+    overflow-x: hidden;
+    transition: 0.4s;
+    border-radius: 30px;
+}
+
+.opcoes-edicao-do-perfil, #fechar-edicao-perfil-botao {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 2vh;
+}
+
+.opcoes-edicao-do-perfil {
+    height: 5vh;
+    justify-content: space-between;
+    color: #ffffff;
+}
+
+#fechar-edicao-perfil-botao {
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+    justify-content: center;
+
+    a {
+        display: flex;
+        width: fit-content;
+        align-items: center;
+        text-decoration: none;
+        font-size: 2vh;
+        font-weight: 500;
+        color: #023859;
+        background-color: #ffffff;
+        gap: 1vw;
+        border-radius: 30px;
+        padding: 0.8vh 2vw;
+    }
+}
+
+.margem-esquerda-edicao-perfil {
+    margin-left: 4vw;
+}
+
+.margem-direita-edicao-perfil {
+    margin-right: 4vw;
+}
+
 /* Parte de navegação entre seções */
 
 footer {

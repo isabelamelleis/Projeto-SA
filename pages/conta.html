@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Conta</title>
     <link rel="stylesheet" href="../styles/conta.css">
+    <script src="../scripts/conta.js"></script>
 </head>
 <body>
     <nav id="nav-botao-configuracoes">
@@ -19,7 +20,7 @@
         </div>
         <div id="div-botao-editar-perfil">
             <h2>Olá, (usuário)</h2>
-            <a id="botao-editar-perfil" href="#"><div></div>Perfil<img src="../styles/imagens/botao-edicao-icone.png" alt="Botão de edição do perfil"></a>
+            <a id="botao-editar-perfil" href="javascript:void(0)" onclick="abrirAbaEdicaoPerfil()"><div></div>Perfil<img src="../styles/imagens/botao-edicao-icone.png" alt="Botão de edição do perfil"></a>
         </div>
         <div id="secao-conquistas">
             <div id="titulo-secao-conquistas">
@@ -51,14 +52,38 @@
     </main>
     <footer>
         <div class="botoes-navegacao-secoes">
-            <a href="./telaInicial.html"><img src="../styles/imagens/casa_branca.svg" alt="">Início</a> 
+            <a href="./telaInicial.html"><img src="../styles/imagens/casa_branca.svg" alt="Ícone do botão início">Início</a> 
         </div>
         <div class="botoes-navegacao-secoes">
-            <a href="#"><img src="../styles/imagens/chapeu-branco.svg" alt="">Níveis de Ensino</a>
+            <a href="#"><img src="../styles/imagens/chapeu-branco.svg" alt="Ícone do botão níveis de ensino">Níveis de Ensino</a>
         </div>
         <div class="botoes-navegacao-secoes">
-            <a href="./conta.html"><img class="botao-clicado-barra-de-nav" src="../styles/imagens/conta-azul.svg" alt="">Conta</a>
+            <a href="./conta.html"><img class="botao-clicado-barra-de-nav" src="../styles/imagens/conta-azul.svg" alt="Ícone do botão conta">Conta</a>
         </div>
     </footer>
+    <aside id="edicao-de-perfil">
+        <div id="fechar-edicao-perfil-botao" onclick="fecharAbaEdicaoPerfil()">
+            <a href="javascript:void(0)">
+                <p>&Chi;</p> 
+                <p>Fechar</p>
+            </a>
+        </div>
+        <a href="#" class="opcoes-edicao-do-perfil">
+            <p class="margem-esquerda-edicao-perfil">Usuário</p>
+            <p class="margem-direita-edicao-perfil">&GT;</p>
+        </a>
+        <a href="#" class="opcoes-edicao-do-perfil">
+            <p class="margem-esquerda-edicao-perfil">Email</p>
+            <p class="margem-direita-edicao-perfil">&GT;</p>
+        </a>
+        <a href="#" class="opcoes-edicao-do-perfil">
+            <p class="margem-esquerda-edicao-perfil">Senha</p>
+            <p class="margem-direita-edicao-perfil">&GT;</p>
+        </a>
+        <a href="#" class="opcoes-edicao-do-perfil">
+           <p class="margem-esquerda-edicao-perfil">Informações Pessoais</p>
+           <p class="margem-direita-edicao-perfil">&GT;</p>
+        </a>
+    </aside>
 </body>
 </html>
