@@ -19,9 +19,29 @@ function fecharAbaEdicaoFoto() {
     document.getElementById("fundo-editar-foto-de-perfil").style.height = "0";
 }
 
+// Função para selecionar o avatar
 function alterarFotoDePerfil(foto) {
     const img = document.getElementById("img-foto-de-perfil-conta");
     img.src = foto;
+
     document.getElementById("img-foto-de-perfil-conta").style.height = "10.2vh";
     document.getElementById("img-foto-de-perfil-conta").style.borderRadius = "100px";
+
+    sessionStorage.setItem('alterarFotoDePerfil', foto);
 }
+
+// Função para carregar o avatar salvo no sessionStorage
+function carregarFotoSelecionada() {
+    const fotoSalva = sessionStorage.getItem('alterarFotoDePerfil');
+
+    if (fotoSalva) {
+        const img = document.getElementById('img-foto-de-perfil-conta');
+        img.src = fotoSalva;
+
+        document.getElementById("img-foto-de-perfil-conta").style.height = "10.2vh";
+        document.getElementById("img-foto-de-perfil-conta").style.borderRadius = "100px";
+    }
+  }
+  
+  // Chama a função carregarFotoSelecionada ao carregar a página
+  window.onload = carregarFotoSelecionada;
