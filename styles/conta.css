@@ -239,7 +239,7 @@ body {
 #conteudo-opcoes-foto {
     width: 80%;
     height: 100%;
-    max-width: 800px;
+    max-width: 500px;
     margin-inline: auto;
 }
 
@@ -250,6 +250,25 @@ body {
     color: #ffffff;
     font-size: 2.3vh;
  }
+
+.opcoes-de-foto-perfil {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 10px;
+}
+
+.imagens-opcoes-para-de-foto-perfil {
+    height: 30%;
+    width: 30%;
+    max-width: 151px;
+
+    img {
+        height: 100%;
+        width: 100%;
+        border-radius: 200px;
+    }
+}
 
 /* Parte de navegação entre seções */
 
