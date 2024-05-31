@@ -40,13 +40,13 @@ body {
 }
 
 #div-foto-de-perfil-conta { 
-    height: 8vh;
+    height: 10vh;
     margin: 15px auto;
     position: relative;
 
     #img-foto-de-perfil-conta {
         width: auto;
-        height: 8vh;
+        height: 10.2vh;
         margin: 0px auto;
     }
 }

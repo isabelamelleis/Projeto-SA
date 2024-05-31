@@ -18,3 +18,10 @@ function fecharAbaEdicaoFoto() {
     document.getElementById("fundo-editar-foto-de-perfil").style.backgroundColor = "transparent";
     document.getElementById("fundo-editar-foto-de-perfil").style.height = "0";
 }
+
+function alterarFotoDePerfil(foto) {
+    const img = document.getElementById("img-foto-de-perfil-conta");
+    img.src = foto;
+    document.getElementById("img-foto-de-perfil-conta").style.height = "10.2vh";
+    document.getElementById("img-foto-de-perfil-conta").style.borderRadius = "100px";
+}
