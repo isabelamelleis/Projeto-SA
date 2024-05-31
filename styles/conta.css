@@ -267,6 +267,8 @@ body {
         height: 100%;
         width: 100%;
         clip-path: circle(50%);
+        border: 0.5vw solid #ffffff;
+        border-radius: 100%;
         /*filter: grayscale(70%);*/ /*Faz a imagem ficar sem cores*/
     }
 }
