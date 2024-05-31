@@ -7,7 +7,7 @@
 }
 
 header {
-    background-color: #1E6994;
+    background-color: #023859;
     width: 100%;
 
     img {
@@ -18,57 +18,62 @@ header {
 
 }
 
-#barra-navegacao {
-    background-color: #1E6994;
+footer {
+    height: 10vh;
+    width: 100vw;
     position: fixed;
-    bottom: 0%;
-    width: 100%;
+    top: 100%;
+    transform: translateY(-100%);
     display: flex;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #023859;
+}
 
-    div {
-        text-align: center;
+.botoes-navegacao-secoes {
+    margin-inline: 9%;
+    a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1vh;
+        color: #ffffff;
+        text-decoration: none; /* tira o sublinhado do link*/
+        font-size: 1.6vh;
     }
-    
+}
 
-    p {
-        color: white;
-        font-size: 80%;
-        font-weight: 500;
-    }
+#botao-clicado-barra-de-nav {
+    height: 1.8vh;
+    width: auto;
+    border: 0.4vh solid #ffffff;
+    border-radius: 30px;
+    background-color: #ffffff;
+}
 
-    button {
-        border-radius: 50%;
-        border: none;
+.tamanho-icones-navegacao {
+    img {
         height: 2.5vh;
-        width: 2.5vh;
-        
+        width: auto;
     }
-}
-
-.icones-barra-navegacao {
-    height: 1.5vh;
-    object-position: left;
-}
-
-#botao-branco-barra-navegacao {
-    background-color: white;
 }
 
 /*---------------------- TELA INICIAL -------------------*/
 
 #body-tela-inicial {
     font-family: "Teachers", sans-serif;
+    height: 200vh;
 }
 
 #inicio-parte-amarela {
-    background-color: #FFEE82;
-    height: 90vh;
+    background-color: #f2d06b;
+    height: 80vh;
     padding-top: 8vh;
 }
 
 #frase-educa-transito {
-    background-color: #1E6994;
+    background-color: #023859;
     width: 55%;
     text-align: center;
     border-top-right-radius: 50px;
@@ -94,7 +99,12 @@ header {
     }
 }
 
-#imagens-tela-inicial{
+ #container-imagens-tela-inicial {
+    display: flex;
+    justify-content: center;
+}
+
+#div-imagens-tela-inicial{
     img {
         display: block;
         aspect-ratio: 1/1; /* deixa a imagem quadrada, mas ao mesmo tempo distorce ela */
@@ -107,23 +117,51 @@ header {
     height: 12vh;
     position: relative;
     top: 5vh;
-    left: 23vh;
+    left: 20vw;
 }
 
 #placas-transito {
     height: 18vh;
     object-position: 0% 50%;
     position: relative;
-    top: 2vh;
-    left: 5vh;
+    top: 3vh;
+    right: 15vw;
 }
 
 #vaga-cadeirante {
     height: 16vh;
     object-position: 30% 50%;
     position: relative;
-    top: -8vh;
-    left: 27vh;
+    bottom: 1vh;
+    left: 18vw;
+}
+
+#section-videos-tela-inicial {
+    width: 100%;
+    h3 {
+        width: 50%;
+        padding-top: 3%;
+        padding-left: 5%;
+        font-size: larger;
+        height: 10vh;
+        align-items: center;
+    }
+    p {
+        text-align: center;
+        padding: 1%;
+        font-size: larger;
+    }
+}
+
+#video-tela-inicial {
+    background-color: #B4F1D4;
+    display: flex;
+    justify-content: center;
+    padding-block: 5%;
+    padding-inline: 10%;
+    video {
+        width: 80%;
+    }
 }
 
 /*---------------------- JOGAR1 -------------------*/
