@@ -13,7 +13,7 @@ body {
 }
 
 header {
-    background-color: #1E6994;
+    background-color: #023859;
     width: 100%;
 
     img {
@@ -27,7 +27,7 @@ header {
 /*--------------------- TELA DE CARREGAMENTO -----------------*/
 
 #body-tela-carregamento {
-    background-color: #1E6994;
+    background-color: #023859;
     display: flex;
     justify-content: center;
     align-items: center;

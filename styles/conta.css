@@ -1,3 +1,4 @@
+/* Fonte Importada */
 @import url('https://fonts.googleapis.com/css2?family=Teachers:ital,wght@0,400..800;1,400..800&display=swap');
 
 * {
@@ -12,7 +13,7 @@ body {
     width: 100vw;
 }
 
-/*Página incial da seção: conta*/
+/* ------------------- CONTA --------------------*/
 
 #nav-botao-configuracoes {
     display: flex;
@@ -156,7 +157,7 @@ body {
     margin-top: 1vh;
 }
 
-/*Aba de edição de dados do perfil*/
+/* --------------- EDIÇÃO DADOS PERFIL --------------*/
 
 #fundo-editar-perfil-fechar {
     width: 100vw;
@@ -277,7 +278,7 @@ body {
     cursor: pointer;
 }
 
-/* Parte de navegação entre seções */
+/* -------------- BARRA DE NAVEGAÇÃO ------------- */
 
 footer {
     height: 10vh;
