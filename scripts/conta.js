@@ -39,7 +39,7 @@ function carregarFotoSelecionada() {
 
         document.getElementById("img-foto-de-perfil-conta").style.height = "10.2vh";
     }
-  }
-  
+}
+
   // Chama a função carregarFotoSelecionada ao carregar a página
   window.onload = carregarFotoSelecionada;

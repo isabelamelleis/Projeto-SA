@@ -317,6 +317,58 @@ footer {
     background-color: #ffffff;
 }
 
+/*-----------------NÍVEIS DE ENSINO-----------------*/
+
+.secao-niveis-de-ensino {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #000000b7;
+}
+
+.selecionar-nivel-de-ensino {
+    width: 70%;
+    height: 100%;
+    max-width: 400px;
+    margin-inline: auto;
+}
+
+.tres-niveis-de-ensino {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3vh;
+
+    a {
+        text-decoration: none;
+        width: 100%;
+        height: 10%;
+        background-color: #ffffff;
+        text-align: center;
+        align-content: center;
+        border-radius: 50px;
+        color: black;
+        font-weight: 600;
+        font-size: 2vh;
+    }
+}
+
+.tres-niveis-de-ensino :nth-child(1) {
+    box-shadow: #52D898 8px 10px;
+}
+
+.tres-niveis-de-ensino :nth-child(2) {
+    box-shadow: #FFE01D 8px 10px;
+}
+
+.tres-niveis-de-ensino :nth-child(3) {
+    box-shadow: #FF3131 8px 10px;
+}
+
 /*----------------- CONFIGURAÇÕES ---------------- */
 
 #body-configuracoes {

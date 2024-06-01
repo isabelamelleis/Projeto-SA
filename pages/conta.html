@@ -55,7 +55,7 @@
             <a href="./telaInicial.html"><img src="../styles/imagens/casa_branca.svg" alt="Ícone do botão início">Início</a> 
         </div>
         <div class="botoes-navegacao-secoes">
-            <a href="#"><img src="../styles/imagens/chapeu-branco.svg" alt="Ícone do botão níveis de ensino">Níveis de Ensino</a>
+            <a href="javascript:void(0)" class="botao-niveis-de-ensino"><img src="../styles/imagens/chapeu-branco.svg" alt="Ícone do botão níveis de ensino">Níveis de Ensino</a>
         </div>
         <div class="botoes-navegacao-secoes">
             <a href="./conta.html"><img class="botao-clicado-barra-de-nav" src="../styles/imagens/conta-azul.svg" alt="Ícone do botão conta">Conta</a>
@@ -63,8 +63,8 @@
     </footer>
     <div id="fundo-editar-perfil-fechar" onclick="fecharAbaEdicaoPerfil()">
         <aside id="edicao-de-perfil">
-            <div id="fechar-edicao-perfil-botao" onclick="fecharAbaEdicaoPerfil()">
-                <a href="javascript:void(0)"> 
+            <div id="fechar-edicao-perfil-botao">
+                <a href="javascript:void(0)" onclick="fecharAbaEdicaoPerfil()"> 
                     <p>Fechar</p>
                 </a>
             </div>
@@ -150,5 +150,8 @@
             </div>
         </div>
     </div>
+    <div class="niveis-de-ensino" style="display: none;"></div>
+
+    <script src="../scripts/niveisDeEnsino.js"></script>
 </body>
 </html>
