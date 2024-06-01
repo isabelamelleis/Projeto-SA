@@ -43,12 +43,14 @@ body {
     height: 10vh;
     margin: 15px auto;
     position: relative;
+}
 
-    #img-foto-de-perfil-conta {
-        width: auto;
-        height: 10.2vh;
-        margin: 0px auto;
-    }
+#img-foto-de-perfil-conta {
+    width: auto;
+    height: 10.2vh;
+    margin: 0px auto;
+    clip-path: circle(50%);
+    border-radius: 100%;
 }
 
 #icone-edicao-foto-perfil {
@@ -272,6 +274,7 @@ body {
     border-color: #ffffff;
     border-radius: 100%;
     /*filter: grayscale(70%);*/ /*Faz a imagem ficar sem cores*/
+    cursor: pointer;
 }
 
 /* Parte de navegação entre seções */

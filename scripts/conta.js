@@ -25,7 +25,6 @@ function alterarFotoDePerfil(foto) {
     img.src = foto;
 
     document.getElementById("img-foto-de-perfil-conta").style.height = "10.2vh";
-    document.getElementById("img-foto-de-perfil-conta").style.clipPath = "circle(50%)";
 
     sessionStorage.setItem('alterarFotoDePerfil', foto);
 }
@@ -39,7 +38,6 @@ function carregarFotoSelecionada() {
         img.src = fotoSalva;
 
         document.getElementById("img-foto-de-perfil-conta").style.height = "10.2vh";
-        document.getElementById("img-foto-de-perfil-conta").style.clipPath = "circle(50%)";
     }
   }
   
