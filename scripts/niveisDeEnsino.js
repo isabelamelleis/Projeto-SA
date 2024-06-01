@@ -6,6 +6,7 @@ document.querySelector(".botao-niveis-de-ensino").addEventListener("click", func
             var conteudo = document.querySelector(".niveis-de-ensino");
             conteudo.innerHTML = this.responseText;
             conteudo.style.display = "block"; // Mostrar o conteúdo
+            document.getElementById('body-tela-inicial').style.overflow = "hidden";
         }
     };
 
@@ -15,4 +16,5 @@ document.querySelector(".botao-niveis-de-ensino").addEventListener("click", func
 
 function esconderNiveisDeEnsino() {
     document.querySelector(".niveis-de-ensino").style.display = "none";
+    document.getElementById('body-tela-inicial').style.overflow = "visible";
 }

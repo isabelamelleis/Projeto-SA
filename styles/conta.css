@@ -321,18 +321,20 @@ footer {
 
 .secao-niveis-de-ensino {
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     position: fixed;
     bottom: 0;
     left: 0;
     background-color: #000000b7;
+    overflow: hidden;
 }
 
 .selecionar-nivel-de-ensino {
-    width: 70%;
-    height: 100%;
+    width: 80%;
+    height: 90%;
     max-width: 400px;
     margin-inline: auto;
+    margin-top: 6vh;
 }
 
 .tres-niveis-de-ensino {

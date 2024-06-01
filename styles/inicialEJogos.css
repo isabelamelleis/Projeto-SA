@@ -41,10 +41,11 @@ footer {
         color: #ffffff;
         text-decoration: none; /* tira o sublinhado do link*/
         font-size: 1.6vh;
+        font-family: "Teachers", sans-serif;
     }
 }
 
-#botao-clicado-barra-de-nav {
+.botao-clicado-barra-de-nav {
     height: 1.8vh;
     width: auto;
     border: 0.4vh solid #ffffff;
@@ -64,6 +65,7 @@ footer {
 #body-tela-inicial {
     font-family: "Teachers", sans-serif;
     height: 200vh;
+    width: 100%;
 }
 
 #inicio-parte-amarela {
@@ -323,7 +325,7 @@ footer {
         padding: 20px;
         float: left;
         width: 29%;
-        margin-bottom: 50px; 
+        margin-bottom: 50px;
     p{
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-size: large;
