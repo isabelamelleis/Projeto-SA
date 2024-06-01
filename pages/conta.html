@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,20 +8,26 @@
     <link rel="stylesheet" href="../styles/conta.css">
     <script src="../scripts/conta.js"></script>
 </head>
+
 <body>
     <nav id="nav-botao-configuracoes">
-        <a href="./telaConfiguracoes.html"><img src="../styles/imagens/configuracoes.svg" alt="Botão de configurações da conta"></a>
+        <a href="./telaConfiguracoes.html"><img src="../styles/imagens/configuracoes.svg"
+                alt="Botão de configurações da conta"></a>
     </nav>
     <main class="container">
         <div id="div-foto-de-perfil-conta">
             <a href="javascript:void(0)" onclick="abrirAbaEdicaoFoto()">
-                <img id="img-foto-de-perfil-conta" src="../styles/imagens/usuario-foto-perfil.png" alt="Foto de perfil do usuário">
-                <img id="icone-edicao-foto-perfil" src="../styles/imagens/botao-edicao-foto-perfil-icone.png" alt="Botão de edição da foto de perfil">
+                <img id="img-foto-de-perfil-conta" src="../styles/imagens/usuario-foto-perfil.png"
+                    alt="Foto de perfil do usuário">
+                <img id="icone-edicao-foto-perfil" src="../styles/imagens/botao-edicao-foto-perfil-icone.png"
+                    alt="Botão de edição da foto de perfil">
             </a>
         </div>
         <div id="div-botao-editar-perfil">
             <h2>Olá, (usuário)</h2>
-            <a id="botao-editar-perfil" href="javascript:void(0)" onclick="abrirAbaEdicaoPerfil()"><div></div>Perfil<img src="../styles/imagens/botao-edicao-icone.png" alt="Botão de edição do perfil"></a>
+            <a id="botao-editar-perfil" href="javascript:void(0)" onclick="abrirAbaEdicaoPerfil()">
+                <div></div>Perfil<img src="../styles/imagens/botao-edicao-icone.png" alt="Botão de edição do perfil">
+            </a>
         </div>
         <div id="secao-conquistas">
             <div id="titulo-secao-conquistas">
@@ -45,107 +52,130 @@
                     <p>Parou para deixar o pedestre atravessar</p>
                 </div>
                 <div id="div-visualizar-tudo">
-                    <a id="button-ver-tudo-conquistas" href="#">Ver tudo<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="M579-480 285-774q-15-15-14.5-35.5T286-845q15-15 35.5-15t35.5 15l307 308q12 12 18 27t6 30q0 15-6 30t-18 27L356-115q-15 15-35 14.5T286-116q-15-15-15-35.5t15-35.5l293-293Z"/></svg></a>
+                    <a id="button-ver-tudo-conquistas" href="#">Ver tudo<svg xmlns="http://www.w3.org/2000/svg"
+                            height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF">
+                            <path
+                                d="M579-480 285-774q-15-15-14.5-35.5T286-845q15-15 35.5-15t35.5 15l307 308q12 12 18 27t6 30q0 15-6 30t-18 27L356-115q-15 15-35 14.5T286-116q-15-15-15-35.5t15-35.5l293-293Z" />
+                        </svg></a>
                 </div>
             </div>
         </div>
     </main>
     <footer>
         <div class="botoes-navegacao-secoes">
-            <a href="./telaInicial.html"><img src="../styles/imagens/casa_branca.svg" alt="Ícone do botão início">Início</a> 
+            <a href="./telaInicial.html"><img src="../styles/imagens/casa_branca.svg"
+                    alt="Ícone do botão início">Início</a>
         </div>
         <div class="botoes-navegacao-secoes">
-            <a href="javascript:void(0)" class="botao-niveis-de-ensino"><img src="../styles/imagens/chapeu-branco.svg" alt="Ícone do botão níveis de ensino">Níveis de Ensino</a>
+            <a href="javascript:void(0)" class="botao-niveis-de-ensino"><img src="../styles/imagens/chapeu-branco.svg"
+                    alt="Ícone do botão níveis de ensino">Níveis de Ensino</a>
         </div>
         <div class="botoes-navegacao-secoes">
-            <a href="./conta.html"><img class="botao-clicado-barra-de-nav" src="../styles/imagens/conta-azul.svg" alt="Ícone do botão conta">Conta</a>
+            <a href="./conta.html"><img class="botao-clicado-barra-de-nav" src="../styles/imagens/conta-azul.svg"
+                    alt="Ícone do botão conta">Conta</a>
         </div>
     </footer>
-    <div id="fundo-editar-perfil-fechar" onclick="fecharAbaEdicaoPerfil()">
-        <aside id="edicao-de-perfil">
-            <div id="fechar-edicao-perfil-botao">
-                <a href="javascript:void(0)" onclick="fecharAbaEdicaoPerfil()"> 
-                    <p>Fechar</p>
-                </a>
-            </div>
-            <div class="linha-branca-divisao"></div>
-            <a href="../pages/telaCadastro2.html" class="opcoes-edicao-do-perfil">
-                <p class="margem-esquerda-edicao-perfil">Usuário</p>
-                <p class="margem-direita-edicao-perfil">&GT;</p>
+    <div id="fundo-editar-perfil-fechar" onclick="fecharAbaEdicaoPerfil()"></div>
+    <aside id="edicao-de-perfil">
+        <div id="fechar-edicao-perfil-botao">
+            <a href="javascript:void(0)" onclick="fecharAbaEdicaoPerfil()">
+                <p>Fechar</p>
             </a>
-            <div class="linha-branca-divisao"></div>
-            <a href="#" class="opcoes-edicao-do-perfil">
-                <p class="margem-esquerda-edicao-perfil">Email</p>
-                <p class="margem-direita-edicao-perfil">&GT;</p>
-            </a>
-            <div class="linha-branca-divisao"></div>
-            <a href="#" class="opcoes-edicao-do-perfil">
-                <p class="margem-esquerda-edicao-perfil">Senha</p>
-                <p class="margem-direita-edicao-perfil">&GT;</p>
-            </a>
-            <div class="linha-branca-divisao"></div>
-            <a href="#" class="opcoes-edicao-do-perfil">
-                <p class="margem-esquerda-edicao-perfil">Informações Pessoais</p>
-                <p class="margem-direita-edicao-perfil">&GT;</p>
-            </a>
-            <div class="linha-branca-divisao"></div>
-        </aside>
-    </div>
+        </div>
+        <div class="linha-branca-divisao"></div>
+        <a href="../pages/telaCadastro2.html" class="opcoes-edicao-do-perfil">
+            <p class="margem-esquerda-edicao-perfil">Usuário</p>
+            <p class="margem-direita-edicao-perfil">&GT;</p>
+        </a>
+        <div class="linha-branca-divisao"></div>
+        <a href="#" class="opcoes-edicao-do-perfil">
+            <p class="margem-esquerda-edicao-perfil">Email</p>
+            <p class="margem-direita-edicao-perfil">&GT;</p>
+        </a>
+        <div class="linha-branca-divisao"></div>
+        <a href="#" class="opcoes-edicao-do-perfil">
+            <p class="margem-esquerda-edicao-perfil">Senha</p>
+            <p class="margem-direita-edicao-perfil">&GT;</p>
+        </a>
+        <div class="linha-branca-divisao"></div>
+        <a href="#" class="opcoes-edicao-do-perfil">
+            <p class="margem-esquerda-edicao-perfil">Informações Pessoais</p>
+            <p class="margem-direita-edicao-perfil">&GT;</p>
+        </a>
+        <div class="linha-branca-divisao"></div>
+    </aside>
     <div id="fundo-editar-foto-de-perfil">
         <div id="conteudo-opcoes-foto">
             <div class="div-botao-voltar">
-                <a class="botao-branco" href="javascript:void(0)" onclick="fecharAbaEdicaoFoto()"><img class="seta-para-esquerda" src="../styles/imagens/seta-voltar-branca.svg" alt="Seta para voltar">Voltar</a>
+                <a class="botao-branco" href="javascript:void(0)" onclick="fecharAbaEdicaoFoto()"><img
+                        class="seta-para-esquerda" src="../styles/imagens/seta-voltar-branca.svg"
+                        alt="Seta para voltar">Voltar</a>
             </div>
             <div class="opcoes-de-foto-perfil">
                 <div class="imagens-opcoes-para-de-foto-perfil">
-                    <img class="avatares" src="../styles/imagens/personagens/brandon.jpg" alt="Foto de personagem: Brandon" onclick="alterarFotoDePerfil('../styles/imagens/personagens/brandon.jpg')">
+                    <img class="avatares" src="../styles/imagens/personagens/brandon.jpg"
+                        alt="Foto de personagem: Brandon"
+                        onclick="alterarFotoDePerfil('../styles/imagens/personagens/brandon.jpg')">
                 </div>
 
                 <div class="imagens-opcoes-para-de-foto-perfil">
-                    <img class="avatares" src="../styles/imagens/personagens/emily.jpg" alt="Foto de personagem: Emily" onclick="alterarFotoDePerfil('../styles/imagens/personagens/emily.jpg')">
+                    <img class="avatares" src="../styles/imagens/personagens/emily.jpg" alt="Foto de personagem: Emily"
+                        onclick="alterarFotoDePerfil('../styles/imagens/personagens/emily.jpg')">
                 </div>
 
                 <div class="imagens-opcoes-para-de-foto-perfil">
-                    <img class="avatares" src="../styles/imagens/personagens/noah.jpg" alt="Foto de personagem: Noah" onclick="alterarFotoDePerfil('../styles/imagens/personagens/noah.jpg')">
-                </div>
-            </div>
-            <div class="opcoes-de-foto-perfil">
-                <div class="imagens-opcoes-para-de-foto-perfil">
-                    <img class="avatares" src="../styles/imagens/personagens/sophia.jpg" alt="Foto de personagem: Sophia" onclick="alterarFotoDePerfil('../styles/imagens/personagens/sophia.jpg')">
-                </div>
-
-                <div class="imagens-opcoes-para-de-foto-perfil">
-                    <img class="avatares" src="../styles/imagens/personagens/ethan.jpg" alt="Foto de personagem: Ethan" onclick="alterarFotoDePerfil('../styles/imagens/personagens/ethan.jpg')">
-                </div>
-
-                <div class="imagens-opcoes-para-de-foto-perfil">
-                    <img class="avatares" src="../styles/imagens/personagens/aisha.jpg" alt="Foto de personagem: Aisha" onclick="alterarFotoDePerfil('../styles/imagens/personagens/aisha.jpg')">
+                    <img class="avatares" src="../styles/imagens/personagens/noah.jpg" alt="Foto de personagem: Noah"
+                        onclick="alterarFotoDePerfil('../styles/imagens/personagens/noah.jpg')">
                 </div>
             </div>
             <div class="opcoes-de-foto-perfil">
                 <div class="imagens-opcoes-para-de-foto-perfil">
-                    <img class="avatares" src="../styles/imagens/personagens/eric.jpg" alt="Foto de personagem: Eric" onclick="alterarFotoDePerfil('../styles/imagens/personagens/eric.jpg')">
+                    <img class="avatares" src="../styles/imagens/personagens/sophia.jpg"
+                        alt="Foto de personagem: Sophia"
+                        onclick="alterarFotoDePerfil('../styles/imagens/personagens/sophia.jpg')">
                 </div>
 
                 <div class="imagens-opcoes-para-de-foto-perfil">
-                    <img class="avatares" src="../styles/imagens/personagens/lily.jpg" alt="Foto de personagem: Lily" onclick="alterarFotoDePerfil('../styles/imagens/personagens/lily.jpg')">
+                    <img class="avatares" src="../styles/imagens/personagens/ethan.jpg" alt="Foto de personagem: Ethan"
+                        onclick="alterarFotoDePerfil('../styles/imagens/personagens/ethan.jpg')">
                 </div>
 
                 <div class="imagens-opcoes-para-de-foto-perfil">
-                    <img class="avatares" src="../styles/imagens/personagens/diego.jpg" alt="Foto de personagem: Diego" onclick="alterarFotoDePerfil('../styles/imagens/personagens/diego.jpg')">
+                    <img class="avatares" src="../styles/imagens/personagens/aisha.jpg" alt="Foto de personagem: Aisha"
+                        onclick="alterarFotoDePerfil('../styles/imagens/personagens/aisha.jpg')">
                 </div>
             </div>
             <div class="opcoes-de-foto-perfil">
                 <div class="imagens-opcoes-para-de-foto-perfil">
-                    <img class="avatares" src="../styles/imagens/personagens/violeta.jpg" alt="Foto de personagem: Violeta" onclick="alterarFotoDePerfil('../styles/imagens/personagens/violeta.jpg')">
+                    <img class="avatares" src="../styles/imagens/personagens/eric.jpg" alt="Foto de personagem: Eric"
+                        onclick="alterarFotoDePerfil('../styles/imagens/personagens/eric.jpg')">
                 </div>
 
                 <div class="imagens-opcoes-para-de-foto-perfil">
-                    <img class="avatares" src="../styles/imagens/personagens/alex.jpg" alt="Foto de personagem: Alex" onclick="alterarFotoDePerfil('../styles/imagens/personagens/Alex.jpg')">
+                    <img class="avatares" src="../styles/imagens/personagens/lily.jpg" alt="Foto de personagem: Lily"
+                        onclick="alterarFotoDePerfil('../styles/imagens/personagens/lily.jpg')">
                 </div>
 
                 <div class="imagens-opcoes-para-de-foto-perfil">
-                    <img class="avatares" src="../styles/imagens/usuario-foto-perfil.png" onclick="alterarFotoDePerfil('../styles/imagens/usuario-foto-perfil.png')">
+                    <img class="avatares" src="../styles/imagens/personagens/diego.jpg" alt="Foto de personagem: Diego"
+                        onclick="alterarFotoDePerfil('../styles/imagens/personagens/diego.jpg')">
+                </div>
+            </div>
+            <div class="opcoes-de-foto-perfil">
+                <div class="imagens-opcoes-para-de-foto-perfil">
+                    <img class="avatares" src="../styles/imagens/personagens/violeta.jpg"
+                        alt="Foto de personagem: Violeta"
+                        onclick="alterarFotoDePerfil('../styles/imagens/personagens/violeta.jpg')">
+                </div>
+
+                <div class="imagens-opcoes-para-de-foto-perfil">
+                    <img class="avatares" src="../styles/imagens/personagens/alex.jpg" alt="Foto de personagem: Alex"
+                        onclick="alterarFotoDePerfil('../styles/imagens/personagens/Alex.jpg')">
+                </div>
+
+                <div class="imagens-opcoes-para-de-foto-perfil">
+                    <img class="avatares" src="../styles/imagens/usuario-foto-perfil.png"
+                        onclick="alterarFotoDePerfil('../styles/imagens/usuario-foto-perfil.png')">
                 </div>
             </div>
         </div>
@@ -154,4 +184,5 @@
 
     <script src="../scripts/niveisDeEnsino.js"></script>
 </body>
+
 </html>

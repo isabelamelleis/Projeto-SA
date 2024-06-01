@@ -160,24 +160,29 @@ body {
 /* --------------- EDIÇÃO DADOS PERFIL --------------*/
 
 #fundo-editar-perfil-fechar {
+    display: none;
     width: 100vw;
-    height: 0;
+    height: 100%;
     position: fixed;
     bottom: 0;
     left: 0;
-    transition: 0.4s;
+    background-color: #000000b7;
 }
 
 #edicao-de-perfil {
-    height: 96vh;
+    position: fixed;
+    bottom: -8%;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 0;
     width: 95vw;
     max-width: 800px;
     background-color: #023859;
-    overflow-x: hidden;
     z-index: 1;
     border-radius: 30px;
     margin-inline: auto;
     margin-top: 8vh;
+    transition: 0.4s;
 }
 
 .opcoes-edicao-do-perfil, #fechar-edicao-perfil-botao {

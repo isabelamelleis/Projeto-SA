@@ -1,11 +1,11 @@
 function abrirAbaEdicaoPerfil() {
-    document.getElementById("fundo-editar-perfil-fechar").style.backgroundColor = "#000000b7";
-    document.getElementById("fundo-editar-perfil-fechar").style.height = "100vh";
+    document.getElementById("fundo-editar-perfil-fechar").style.display = "block";
+    document.getElementById("edicao-de-perfil").style.height = "96vh";
 }
 
 function fecharAbaEdicaoPerfil() {
-    document.getElementById("fundo-editar-perfil-fechar").style.backgroundColor = "transparent";
-    document.getElementById("fundo-editar-perfil-fechar").style.height = "0";
+    document.getElementById("fundo-editar-perfil-fechar").style.display = "none";
+    document.getElementById("edicao-de-perfil").style.height = "0";
 }
 
 function abrirAbaEdicaoFoto() {
