@@ -183,7 +183,7 @@ footer {
 
 .series-iniciais{
     background-image: linear-gradient(to right, #0EAB5F, #78DDAC);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Teachers", sans-serif;
     height: 100px;  
     width: 100vw;
     font-size: 3vh;
@@ -198,10 +198,13 @@ footer {
 
 .slogan-series-iniciais{
     background-color:#0EAB5F;
-    padding: 20px;
+    padding-block: 2vh;
+    padding-inline: 4vw 6vw;
     float: left;
-    width: 29%;
+    width: fit-content;
     margin-bottom: 50px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
 
         p{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -248,7 +251,7 @@ footer {
 
 .series-finais{
     background-image: linear-gradient(to right, #F2B807, #F2D06B);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Teachers", sans-serif;
     height: 100px;  
     width: 100vw;
     font-size: 3vh;
@@ -314,7 +317,7 @@ footer {
 /*---------------------------JOGAR3----------------------------------*/
 .ensino-medio{
         background-image: linear-gradient(to right, #F21D2F, #e25561);
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-family: "Teachers", sans-serif;
         height: 100px;  
         width: 100vw;
         font-size: 3vh;
@@ -322,6 +325,7 @@ footer {
     h3{
         padding: 13px;
         color: #f2f2f2;
+        margin: 10px;
 }
 }
 
