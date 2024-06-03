@@ -1,5 +1,10 @@
-/*Fonte Importada*/
+/*Fontes Importadas*/
 @import url('https://fonts.googleapis.com/css2?family=Teachers:ital,wght@0,400..800;1,400..800&display=swap');
+
+@font-face {
+    font-family: 'Plus Jakarta Sans';
+    src: url('../styles/Plus_Jakarta_Sans/static/PlusJakartaSans-Regular.ttf') format('truetype');
+}
 
 * {
     margin: 0;
@@ -178,7 +183,7 @@ footer {
 
 .series-iniciais{
     background-image: linear-gradient(to right, #0EAB5F, #78DDAC);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Teachers", sans-serif;
     height: 100px;  
     width: 100vw;
     font-size: 3vh;
@@ -187,22 +192,26 @@ footer {
         h3{
     padding: 13px;
     color: #f2f2f2;
-    margin: 10px;
+    margin: 3vh 0 0 10px;
 }
 }
 
 .slogan-series-iniciais{
     background-color:#0EAB5F;
-    padding: 20px;
+    padding-block: 2vh;
+    padding-inline: 4vw 6vw;
     float: left;
-    width: 29%;
+    width: fit-content;
     margin-bottom: 50px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
 
         p{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: larger;
+    font-family: 'Plus Jakarta Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
     color: #f2f2f2;
     font-weight: bold;
+    word-spacing: 0.3vw;
     }
 }
 .jogar{
@@ -222,7 +231,7 @@ footer {
     border: 0px;
     color: #f2f2f2;
     font-weight: bold;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Plus Jakarta Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .imagem-series-iniciais{
     display: flex;
@@ -243,7 +252,7 @@ footer {
 
 .series-finais{
     background-image: linear-gradient(to right, #F2B807, #F2D06B);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Teachers", sans-serif;
     height: 100px;  
     width: 100vw;
     font-size: 3vh;
@@ -253,6 +262,7 @@ footer {
         padding: 13px;
         color: #000000;
         margin: 10px;
+        margin: 3vh 0 0 10px;
 }
 }
 
@@ -263,7 +273,7 @@ footer {
     width: 29%;
     margin-bottom: 50px;
     p{
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-family: 'Plus Jakarta Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-size: large;
         color: #000000;
         font-weight: bold;
@@ -288,7 +298,7 @@ footer {
     border: 0px;
     color: rgb(0, 0, 0);
     font-weight: bold;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Plus Jakarta Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .imagem-series-finais{
@@ -309,7 +319,7 @@ footer {
 /*---------------------------JOGAR3----------------------------------*/
 .ensino-medio{
         background-image: linear-gradient(to right, #F21D2F, #e25561);
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-family: "Teachers", sans-serif;
         height: 100px;  
         width: 100vw;
         font-size: 3vh;
@@ -317,6 +327,8 @@ footer {
     h3{
         padding: 13px;
         color: #f2f2f2;
+        margin: 10px;
+        margin: 3vh 0 0 10px;
 }
 }
 
@@ -327,7 +339,7 @@ footer {
         width: 29%;
         margin-bottom: 50px;
     p{
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-family: 'Plus Jakarta Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-size: large;
         color: #f2f2f2;
         font-weight: bold;
@@ -352,7 +364,7 @@ footer {
     border: 0px;
     color: #f2f2f2;
     font-weight: bold;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Plus Jakarta Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .imagem-ensino-medio{
