@@ -20,31 +20,29 @@ Respeito e Cidadania: Enfatizamos a importância do respeito mútuo entre os usu
 
 ## 🤝 Colaboradores
 
-Agradecemos às seguintes pessoas que contribuíram para este projeto:
-
 <table>
   <tr>
     <td align="center">
       <a href="#" title="isa">
-        <img src="https://i.pinimg.com/originals/d8/23/5d/d8235d391bc0a72ea8173fa2b36700b7.jpg" width="100px;"/><br>
+        <img src="https://avatars.githubusercontent.com/u/160625375?v=4" width="100px;" alt="Foto da Isabela do Github" /><br>
           <b>Isabela Zimmermann</b>
       </a>
     </td>
     <td align="center">
       <a href="#" title="gab">
-        <img src="https://pbs.twimg.com/media/FTTckDVXoAEGngZ.jpg" width="100px;"/><br>
+        <img src="https://avatars.githubusercontent.com/u/160626981?v=4" width="100px;" alt="Foto do Gabriel do Github"/><br>
           <b>Gabriel Bosco</b>
       </a>
     </td>
     <td align="center">
       <a href="#" title="ka">
-        <img src="https://i.pinimg.com/736x/cd/d1/3e/cdd13e6c2a2373eba4920edac7153afb.jpg" width="100px;"/><br>
+        <img src="https://avatars.githubusercontent.com/u/160753365?v=4" width="100px;" alt="Foto do Kauan do Github"/><br>
           <b>Kauan Luz</b>
       </a>
     </td>
     <td align="center">
         <a href="#" title="vi">
-          <img src="https://pbs.twimg.com/media/FTTckDUWYAAWy_L.jpg" width="100px;"/><br>
+          <img src="https://avatars.githubusercontent.com/u/160753388?v=4" width="100px;" alt="Foto da Victória do Github"/><br>
             <b>Victória Dunzer</b>
         </a>
       </td>
