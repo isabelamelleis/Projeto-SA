@@ -192,7 +192,7 @@ footer {
         h3{
     padding: 13px;
     color: #f2f2f2;
-    margin: 10px;
+    margin: 3vh 0 0 10px;
 }
 }
 
@@ -207,10 +207,11 @@ footer {
     border-bottom-right-radius: 15px;
 
         p{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: larger;
+    font-family: 'Plus Jakarta Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
     color: #f2f2f2;
     font-weight: bold;
+    word-spacing: 0.3vw;
     }
 }
 .jogar{
@@ -230,7 +231,7 @@ footer {
     border: 0px;
     color: #f2f2f2;
     font-weight: bold;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Plus Jakarta Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .imagem-series-iniciais{
     display: flex;
@@ -261,6 +262,7 @@ footer {
         padding: 13px;
         color: #000000;
         margin: 10px;
+        margin: 3vh 0 0 10px;
 }
 }
 
@@ -271,7 +273,7 @@ footer {
     width: 29%;
     margin-bottom: 50px;
     p{
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-family: 'Plus Jakarta Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-size: large;
         color: #000000;
         font-weight: bold;
@@ -296,7 +298,7 @@ footer {
     border: 0px;
     color: rgb(0, 0, 0);
     font-weight: bold;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Plus Jakarta Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .imagem-series-finais{
@@ -326,6 +328,7 @@ footer {
         padding: 13px;
         color: #f2f2f2;
         margin: 10px;
+        margin: 3vh 0 0 10px;
 }
 }
 
@@ -336,7 +339,7 @@ footer {
         width: 29%;
         margin-bottom: 50px;
     p{
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-family: 'Plus Jakarta Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-size: large;
         color: #f2f2f2;
         font-weight: bold;
@@ -361,7 +364,7 @@ footer {
     border: 0px;
     color: #f2f2f2;
     font-weight: bold;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Plus Jakarta Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .imagem-ensino-medio{
