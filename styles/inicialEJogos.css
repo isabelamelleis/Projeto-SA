@@ -1,5 +1,10 @@
-/*Fonte Importada*/
+/*Fontes Importadas*/
 @import url('https://fonts.googleapis.com/css2?family=Teachers:ital,wght@0,400..800;1,400..800&display=swap');
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('../styles/Bebas_Neue/BebasNeue-Regular.ttf') format('truetype');
+}
 
 * {
     margin: 0;
