@@ -1,70 +1,3 @@
-/*Fontes Importadas*/
-@import url('https://fonts.googleapis.com/css2?family=Teachers:ital,wght@0,400..800;1,400..800&display=swap');
-
-@font-face {
-    font-family: 'Plus Jakarta Sans';
-    src: url('../styles/Plus_Jakarta_Sans/static/PlusJakartaSans-Regular.ttf') format('truetype');
-}
-
-* {
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    background-color: #023859;
-    width: 100%;
-
-    img {
-        width: 110px;
-        height: 40px;
-        margin: 15px;
-    }
-
-}
-
-footer {
-    height: 10vh;
-    width: 100vw;
-    position: fixed;
-    top: 100%;
-    transform: translateY(-100%);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background-color: #023859;
-}
-
-.botoes-navegacao-secoes {
-    margin-inline: 9%;
-    a {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 1vh;
-        color: #ffffff;
-        text-decoration: none; /* tira o sublinhado do link*/
-        font-size: 1.6vh;
-        font-family: "Teachers", sans-serif;
-    }
-}
-
-.botao-clicado-barra-de-nav {
-    height: 1.8vh;
-    width: auto;
-    border: 0.4vh solid #ffffff;
-    border-radius: 30px;
-    background-color: #ffffff;
-}
-
-.tamanho-icones-navegacao {
-    img {
-        height: 2.5vh;
-        width: auto;
-    }
-}
-
 /*---------------------- TELA INICIAL -------------------*/
 
 #body-tela-inicial {
@@ -171,33 +104,51 @@ footer {
     }
 }
 
-/*---------------------- JOGAR1 -------------------*/
+/*---------------------- TELAS DOS NÍVEIS DE ENSINO - JOGAR -------------------*/
 
 #body-telas-jogar {
     display: flex;
     flex-direction: column;
-    height: 100vh;
-    width: 100vw;
-    background-color: #f2f2f2;
 }
 
-.series-iniciais{
-    background-image: linear-gradient(to right, #0EAB5F, #78DDAC);
+.titulos-telas-jogar {
     font-family: "Teachers", sans-serif;
-    height: 100px;  
-    width: 100vw;
     font-size: 3vh;
     margin-bottom: 50px;
+    height: 100px;  
+    width: 100vw;
 
-        h3{
-    padding: 13px;
-    color: #f2f2f2;
-    margin: 3vh 0 0 10px;
-}
+    h3 {
+        padding: 13px;
+        margin: 3vh 0 0 10px;
+    }
 }
 
-.slogan-series-iniciais{
-    background-color:#0EAB5F;
+#series-iniciais {
+    background-image: linear-gradient(to right, #0EAB5F, #78DDAC);
+    
+    h3 {
+        color: #f2f2f2;
+    }
+}
+
+#series-finais {
+    background-image: linear-gradient(to right, #F2B807, #F2D06B);
+    
+    h3 {
+        color: #000000;
+    }
+}
+
+#ensino-medio{
+    background-image: linear-gradient(to right, #F21D2F, #e25561);
+    
+    h3{
+        color: #f2f2f2;
+    }
+}
+
+.slogan-telas-jogar {
     padding-block: 2vh;
     padding-inline: 4vw 6vw;
     float: left;
@@ -206,78 +157,41 @@ footer {
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
 
-        p{
-    font-family: 'Plus Jakarta Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: large;
-    color: #f2f2f2;
-    font-weight: bold;
-    word-spacing: 0.3vw;
+    p {
+        font-family: 'Plus Jakarta Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: large;
+        font-weight: bold;
+        word-spacing: 0.3vw;
     }
 }
-.jogar{
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-content: space-around;
-}
-#botao-jogar{
-    width: 150px;
-    height: 40px;
-    font-size: larger;
-    border-radius:20px;
-    background-color: #52D898;
-    border: 0px;
-    color: #f2f2f2;
-    font-weight: bold;
-    font-family: 'Plus Jakarta Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-.imagem-series-iniciais{
-    display: flex;
-    text-align: end;
-    height: 60vh;
-    flex-direction: row-reverse;
-    flex-wrap: wrap;
-    align-content: flex-start;
-    justify-content: space-between;
-    align-items: center;
 
-    img{
-        width: auto;
-        height: 100%;
+#slogan-series-iniciais{
+    background-color:#0EAB5F;
+    p {
+        color: #f2f2f2;
     }
 }
-/*---------------------------JOGAR2----------------------------------*/
 
-.series-finais{
-    background-image: linear-gradient(to right, #F2B807, #F2D06B);
-    font-family: "Teachers", sans-serif;
-    height: 100px;  
-    width: 100vw;
-    font-size: 3vh;
-    margin-bottom: 50px;
-
-    h3{
-        padding: 13px;
-        color: #000000;
-        margin: 10px;
-        margin: 3vh 0 0 10px;
-}
-}
-
-.slogan-series-finais{
+#slogan-series-finais{
     background-color: #F2D06B;
+    p {
+        color: #000000;
+    }
+}
+
+#slogan-ensino-medio{
+    background-color: #e25561;
     padding: 20px;
     float: left;
     width: 29%;
     margin-bottom: 50px;
-    p{
+    
+    p {
         font-family: 'Plus Jakarta Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-size: large;
-        color: #000000;
+        color: #f2f2f2;
         font-weight: bold;
-}
+    }
 }
 
 .jogar{
@@ -289,96 +203,62 @@ footer {
     align-content: space-around;
 }
 
-#botao-jogar-2{
+.botao-jogar {
     width: 150px;
     height: 40px;
     font-size: larger;
     border-radius:20px;
-    background-color: #F2B807;
     border: 0px;
-    color: rgb(0, 0, 0);
     font-weight: bold;
     font-family: 'Plus Jakarta Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.imagem-series-finais{
+#botao-jogar-series-iniciais {
+    background-color: #52D898;
+    color: #f2f2f2;
+}
+
+#botao-jogar-series-finais {
+    background-color: #F2B807;
+    color: rgb(0, 0, 0);
+}
+
+#botao-jogar-ensino-medio {
+    background-color: #F21D2F;
+    color: #f2f2f2;
+}
+
+.imagens-telas-jogar {
     display: flex;
-    text-align: initial;
     height: 60vh;
-    flex-direction: column;
     flex-wrap: wrap;
-    align-content: space-between;
-    justify-content: flex-end;
-    align-items: flex-end;
 
     img{
         width: auto;
         height: 100%;
     }
 }
-/*---------------------------JOGAR3----------------------------------*/
-.ensino-medio{
-        background-image: linear-gradient(to right, #F21D2F, #e25561);
-        font-family: "Teachers", sans-serif;
-        height: 100px;  
-        width: 100vw;
-        font-size: 3vh;
-        margin-bottom: 50px;
-    h3{
-        padding: 13px;
-        color: #f2f2f2;
-        margin: 10px;
-        margin: 3vh 0 0 10px;
-}
-}
 
-.slogan-ensino-medio{
-        background-color: #e25561;
-        padding: 20px;
-        float: left;
-        width: 29%;
-        margin-bottom: 50px;
-    p{
-        font-family: 'Plus Jakarta Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: large;
-        color: #f2f2f2;
-        font-weight: bold;
-}
-}
-
-.jogar{
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-content: space-around;
-}
-
-#botao-jogar-3{
-    width: 150px;
-    height: 40px;
-    font-size: larger;
-    border-radius:20px;
-    background-color: #F21D2F;
-    border: 0px;
-    color: #f2f2f2;
-    font-weight: bold;
-    font-family: 'Plus Jakarta Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.imagem-ensino-medio{
-    display: flex;
-    text-align: end;
-    height: 60vh;
+#imagem-series-iniciais {
+    text-align: end; 
     flex-direction: row-reverse;
-    flex-wrap: wrap;
     align-content: flex-start;
     justify-content: space-between;
     align-items: center;
+}
 
-    img{
-        width: auto;
-        height: 100%;
-    }
+#imagem-series-finais {
+    text-align: initial;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+#imagem-ensino-medio {
+    text-align: end;
+    flex-direction: row-reverse;
+    align-content: flex-start;
+    justify-content: space-between;
+    align-items: center;
 }
